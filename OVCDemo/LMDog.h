@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface LMDog : NSObject
+/**dog的名称*/
+@property (nonatomic , copy)NSString * name;
+/**dog的价钱*/
+//@property (nonatomic , assign)float price;
+
 
 @end

@@ -13,6 +13,9 @@
 		EE16655C2149FA4700EFB29A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE16655B2149FA4700EFB29A /* Assets.xcassets */; };
 		EE16655F2149FA4700EFB29A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE16655D2149FA4700EFB29A /* LaunchScreen.storyboard */; };
 		EE1665622149FA4700EFB29A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1665612149FA4700EFB29A /* main.m */; };
+		EE16656A2149FAE500EFB29A /* LMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1665692149FAE500EFB29A /* LMPerson.m */; };
+		EE16656D214A029800EFB29A /* LMDog.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16656C214A029800EFB29A /* LMDog.m */; };
+		EE166570214A377200EFB29A /* LMKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = EE16656F214A377200EFB29A /* LMKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		EE16655E2149FA4700EFB29A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1665602149FA4700EFB29A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1665612149FA4700EFB29A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE1665682149FAE500EFB29A /* LMPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMPerson.h; sourceTree = "<group>"; };
+		EE1665692149FAE500EFB29A /* LMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMPerson.m; sourceTree = "<group>"; };
+		EE16656B214A029800EFB29A /* LMDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMDog.h; sourceTree = "<group>"; };
+		EE16656C214A029800EFB29A /* LMDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMDog.m; sourceTree = "<group>"; };
+		EE16656E214A377200EFB29A /* LMKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMKVO.h; sourceTree = "<group>"; };
+		EE16656F214A377200EFB29A /* LMKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMKVO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				EE1665532149FA4600EFB29A /* AppDelegate.m */,
 				EE1665552149FA4600EFB29A /* ViewController.h */,
 				EE1665562149FA4600EFB29A /* ViewController.m */,
+				EE1665682149FAE500EFB29A /* LMPerson.h */,
+				EE1665692149FAE500EFB29A /* LMPerson.m */,
+				EE16656B214A029800EFB29A /* LMDog.h */,
+				EE16656C214A029800EFB29A /* LMDog.m */,
+				EE16656E214A377200EFB29A /* LMKVO.h */,
+				EE16656F214A377200EFB29A /* LMKVO.m */,
 				EE1665582149FA4600EFB29A /* Main.storyboard */,
 				EE16655B2149FA4700EFB29A /* Assets.xcassets */,
 				EE16655D2149FA4700EFB29A /* LaunchScreen.storyboard */,
@@ -97,6 +112,7 @@
 		EE1665472149FA4600EFB29A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LM;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "李敏";
 				TargetAttributes = {
@@ -142,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE1665572149FA4600EFB29A /* ViewController.m in Sources */,
+				EE16656A2149FAE500EFB29A /* LMPerson.m in Sources */,
 				EE1665622149FA4700EFB29A /* main.m in Sources */,
+				EE166570214A377200EFB29A /* LMKVO.m in Sources */,
+				EE16656D214A029800EFB29A /* LMDog.m in Sources */,
 				EE1665542149FA4600EFB29A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

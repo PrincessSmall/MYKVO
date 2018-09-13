@@ -8,6 +8,27 @@
 
 #import "LMPerson.h"
 
+@interface LMPerson()
+
+@property (nonatomic , copy)NSString * sex;
+
+@end
+
 @implementation LMPerson
+
+
+-(void)printAge{
+    NSLog(@"%@",self.sex);
+}
+
+-(instancetype)init{
+    if (self = [super init]) {
+        
+        self.sex = @"feamel";
+    }
+    return self;
+}
+
+
 
 @end

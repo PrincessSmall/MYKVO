@@ -7,7 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+@class LMDog;
 
 @interface LMPerson : NSObject
+
+/**名称*/
+@property (nonatomic , copy)NSString * name;
+/**年龄*/
+@property (nonatomic , assign)NSInteger  age;
+/**dog*/
+@property (nonatomic , strong)LMDog * dog;
+
+
+-(void)printAge;
 
 @end

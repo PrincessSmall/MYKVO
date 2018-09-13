@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface LMKVO : NSObject
+/**数值*/
+@property (nonatomic , assign)int num;
 
 @end
